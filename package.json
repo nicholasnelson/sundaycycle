@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack",
-    "start:dev": "webpack-dev-server"
+    "start:dev": "webpack-dev-server --host 0.0.0.0"
   },
   "keywords": [],
   "author": "",
@@ -15,5 +15,9 @@
     "webpack": "^4.41.5",
     "webpack-cli": "^3.3.10",
     "webpack-dev-server": "^3.10.1"
+  },
+  "dependencies": {
+    "matter-js": "^0.14.2",
+    "uuid": "^3.4.0"
   }
 }
